@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" parallel="none">
+  <parameter name="broswer" value="chrome"/>
+  <test name="Test Case(failed)" parallel="none">
+    <parameter name="broswer" value="chrome"/>
+    <classes>
+      <class name="com.automationexercise.testCases.TC_SearchAndProductAddToCart_008">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_SearchAndProductAddToCart_008 -->
+      <class name="com.automationexercise.testCases.TC_CorrectLogin_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_CorrectLogin_002 -->
+      <class name="com.automationexercise.testCases.TC_ViewProductPage_VerifyProductDetails_010">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_ViewProductPage_VerifyProductDetails_010 -->
+      <class name="com.automationexercise.testCases.TC_RegisterExistingUser_005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_RegisterExistingUser_005 -->
+      <class name="com.automationexercise.testCases.TC_VerifyContactForm_006">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_VerifyContactForm_006 -->
+      <class name="com.automationexercise.testCases.TC_VerifyProductQtyInCart_009">
+        <methods>
+          <include name="countProductQtyInCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_VerifyProductQtyInCart_009 -->
+      <class name="com.automationexercise.testCases.TC_InCorrectLogin_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testCases.TC_InCorrectLogin_003 -->
+    </classes>
+  </test> <!-- Test Case(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<test name="Test Case">
+		<parameter name="broswer" value="chrome"></parameter>
+		<classes>
+			<class name="com.automationexercise.testCases.TC_CorrectLogin_002">
+				<methods>
+					<include name="correctLoginTest" />
+
+				</methods>
+			</class>
+			<class name="com.automationexercise.testCases.TC_InCorrectLogin_003">
+				<methods>
+					<include name="inCorrectLoginTest" />
+
+				</methods>
+			</class>
+			<class
+				name="com.automationexercise.testCases.TC_RegisterExistingUser_005">
+				<methods>
+					<include name="registerExistingUserTest" />
+
+				</methods>
+			</class>
+			<class
+				name="com.automationexercise.testCases.TC_VerifyContactForm_006">
+				<methods>
+					<include name="ContactPageTest" />
+
+				</methods>
+			</class>
+			<class
+				name="com.automationexercise.testCases.TC_SearchAndProductAddToCart_008">
+				<methods>
+					<include name="productPageSearchProduct" />
+					<include name="productPageVerifySearchProductName" />
+					<include name="productPageDetailsofFirstProduct"/>
+					<include name="clickAddToCart"/>
+					<include name="viewCartProduct"/>
+					<include name="countProductQtyInCart"/>
+				</methods>
+			</class>
+			<class
+				name="com.automationexercise.testCases.TC_VerifyProductQtyInCart_009">
+				<methods>
+					<include name="countProductQtyInCart" />
+
+				</methods>
+			</class>
+			<class
+				name="com.automationexercise.testCases.TC_ViewProductPage_VerifyProductDetails_010">
+				<methods>
+					<include name="productDetail" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
